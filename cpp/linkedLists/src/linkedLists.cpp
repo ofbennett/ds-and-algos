@@ -342,6 +342,7 @@ void DoublyLinkedList::pushTail(float value){
     }
 }
 
+// Debugging method used to ensure all necessary links between Nodes exist
 bool DoublyLinkedList::is_connected(){
     if(head == nullptr){
         return true;
