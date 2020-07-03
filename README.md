@@ -12,8 +12,8 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 Data Structures:
 
-- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/fe6322a1c5f0f00b7c2bed23de667185fa66c61d/python/linkedLists/linkedLists.py#L1)
-- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/6d8fd4e238803236ccb3ad176204804a098687f9/python/linkedLists/linkedLists.py#L154)
+- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)
+- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)
 - Hash Table
 - Tree
 - Graph
@@ -22,10 +22,10 @@ Data Structures:
 
 Algorithms:
 
-- Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L3)
-- Merge Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L45)
-- Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L19)
-- Binary Search (of sorted array) :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/search/search_algos.py#L2)
+- Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L3)
+- Merge Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L45)
+- Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L19)
+- Binary Search (of sorted array) :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/search/search_algos.py#L2)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
@@ -46,8 +46,8 @@ $ pytest
 
 Data Structures:
 
-- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/cpp/linkedLists/src/linkedLists.h#L7)
-- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/cpp/linkedLists/src/linkedLists.h#L41)
+- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L7)
+- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
 - Hash Table
 - Tree
 - Graph
