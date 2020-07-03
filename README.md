@@ -2,7 +2,9 @@
 
 By Oscar Bennett
 
-My own implementation of important data structures and algorithms written in both Python and C++. Tested with the [pytest](https://docs.pytest.org/en/latest/) and [Catch](https://github.com/catchorg/Catch2) frameworks respectively.
+My own implementation of important and interesting data structures and algorithms written in both Python and C++. Tested with the [pytest](https://docs.pytest.org/en/latest/) and [Catch](https://github.com/catchorg/Catch2) frameworks respectively.
+
+I'm planning to keep this as an ongoing project and gradually add things over time. Also happy to hear suggestions!
 
 ## Python Code Done and To Do:
 
