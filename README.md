@@ -12,8 +12,8 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 Data Structures:
 
-- Singly Linked List :white_check_mark:
-- Doubly Linked List :white_check_mark:
+- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/master/python/linkedLists/linkedLists.py)
+- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/6d8fd4e238803236ccb3ad176204804a098687f9/python/linkedLists/linkedLists.py#L154)
 - Hash Table
 - Tree
 - Graph
