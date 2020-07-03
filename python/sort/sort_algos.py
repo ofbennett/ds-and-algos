@@ -40,3 +40,42 @@ class QuickSort:
 
         self._swap_around_pivot(z, i-1, low)
         self._swap_around_pivot(z, high, i)
+
+class MergeSort:
+    def __init__(self):
+        pass
+
+    def sort(self, list_to_sort):
+        x = copy(list_to_sort)
+        self._sort(x)
+        return x
+
+    def _sort(self, z):
+        if len(z) >1:
+            m = len(z)//2
+            L = z[:m]
+            R = z[m:]
+            self._sort(L)
+            self._sort(R)
+            self._merge(z, L, R)
+
+    def _merge(self, z, L, R):
+        # Merge L and R arrays assuming they are both individually sorted 
+        i = j = k = 0
+        while (i<len(L)) and (j<len(R)):
+            if L[i] < R[j]:
+                z[k] = L[i]
+                i +=1
+                k +=1
+            else:
+                z[k] = R[j]
+                j +=1
+                k +=1
+        while (i<len(L)):
+            z[k] = L[i]
+            i +=1
+            k +=1
+        while (j<len(R)):
+            z[k] = R[j]
+            j +=1
+            k +=1

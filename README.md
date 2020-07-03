@@ -24,7 +24,7 @@ Algorithms:
 
 - Binary Search
 - Bubble Sort :white_check_mark:
-- Merge Sort
+- Merge Sort :white_check_mark:
 - Quick Sort :white_check_mark:
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order

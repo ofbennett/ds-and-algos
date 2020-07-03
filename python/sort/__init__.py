@@ -1,1 +1,1 @@
-from sort.sort_algos import BubbleSort, QuickSort
+from sort.sort_algos import BubbleSort, QuickSort, MergeSort
