@@ -14,3 +14,29 @@ class BubbleSort:
             if swap_count == 0:
                 break
         return x
+
+class QuickSort:
+    def __init__(self):
+        pass
+
+    def sort(self, list_to_sort):
+        x = copy(list_to_sort)
+        low = 0
+        high = len(x) - 1
+        self._swap_around_pivot(x, high, low)
+        return x
+
+    def _swap_around_pivot(self, z, high, low):
+        if high <= low:
+            return
+
+        pivot = z[high]
+        i = low
+        for j in range(low, high):
+            if z[j] <= pivot:
+                z[i], z[j] = z[j], z[i]
+                i +=1
+        z[i], z[high] = z[high], z[i]
+
+        self._swap_around_pivot(z, i-1, low)
+        self._swap_around_pivot(z, high, i)
