@@ -6,6 +6,8 @@ My own implementation of important data structures and algorithms written in bot
 
 ## Python Code Done and To Do:
 
+:white_check_mark: == Done
+
 Data Structures:
 
 - Singly Linked List :white_check_mark:
@@ -37,6 +39,8 @@ $ pytest
 ```
 
 ## C++ Code Done and To Do:
+
+:white_check_mark: == Done
 
 Data Structures:
 
