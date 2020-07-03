@@ -1,5 +1,5 @@
 import pytest
-from linkedLists import DoublyLinkedList
+from .. import DoublyLinkedList
 
 def test_push_pop_head():
     dll = DoublyLinkedList()

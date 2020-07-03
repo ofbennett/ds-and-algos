@@ -1,0 +1,1 @@
+from linkedLists.linkedLists import SinglyLinkedList, DoublyLinkedList

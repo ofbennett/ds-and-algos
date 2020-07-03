@@ -1,5 +1,5 @@
 import pytest
-from linkedLists import SinglyLinkedList
+from .. import SinglyLinkedList
 
 def test_push_pop_head():
     sll = SinglyLinkedList()
