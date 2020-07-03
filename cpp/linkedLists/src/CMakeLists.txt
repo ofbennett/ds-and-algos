@@ -1,0 +1,1 @@
+add_library(linkedLists_library linkedLists.cpp)

@@ -1,0 +1,5 @@
+add_executable(test_singlyLinkedLists test_main.cpp test_singlyLinkedList.cpp)
+target_link_libraries(test_singlyLinkedLists linkedLists_library)
+
+add_executable(test_doublyLinkedLists test_main.cpp test_doublyLinkedList.cpp)
+target_link_libraries(test_doublyLinkedLists linkedLists_library)
