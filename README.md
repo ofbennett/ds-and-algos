@@ -22,10 +22,10 @@ Data Structures:
 
 Algorithms:
 
-- Binary Search
 - Bubble Sort :white_check_mark:
 - Merge Sort :white_check_mark:
 - Quick Sort :white_check_mark:
+- Binary Search (of sorted array)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
@@ -56,10 +56,10 @@ Data Structures:
 
 Algorithms:
 
-- Binary Search
 - Bubble Sort
 - Merge Sort
 - Quick Sort
+- Binary Search (of sorted array)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
