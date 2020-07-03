@@ -23,7 +23,7 @@ Data Structures:
 Algorithms:
 
 - Binary Search
-- Bubble Sort
+- Bubble Sort :white_check_mark:
 - Merge Sort
 - Quick Sort
 - Tree traversal DFS - Pre Order, In Order, Post Order
