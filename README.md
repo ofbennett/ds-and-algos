@@ -22,10 +22,10 @@ Data Structures:
 
 Algorithms:
 
-- Bubble Sort :white_check_mark:
-- Merge Sort :white_check_mark:
-- Quick Sort :white_check_mark:
-- Binary Search (of sorted array) :white_check_mark:
+- Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L3)
+- Merge Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L45)
+- Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/sort/sort_algos.py#L19)
+- Binary Search (of sorted array) :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/python/search/search_algos.py#L2)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
@@ -46,8 +46,8 @@ $ pytest
 
 Data Structures:
 
-- Singly Linked List :white_check_mark:
-- Doubly Linked List :white_check_mark:
+- Singly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/cpp/linkedLists/src/linkedLists.h#L7)
+- Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/Data_Structures_and_Algorithms/blob/e1fdbf44f47bf36106a31110191cff8f246f513a/cpp/linkedLists/src/linkedLists.h#L41)
 - Hash Table
 - Tree
 - Graph
