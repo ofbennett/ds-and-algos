@@ -68,11 +68,11 @@ Requires an installation of [cmake](https://cmake.org).
 $ cd cpp/build
 $ ccmake ..
 ```
-- Hit C, Hit C, Hit G. This will generate a make file.
+- Hit C, Hit C, Hit G. This should generate a make file.
 ```
 $ make
 ```
-All binaries will be built at put in the `build/bin` directory. To run one of the binaries for example run:
+All binaries will be built and placed in the `build/bin` directory. To run one of the binaries for example run:
 ```
 $ bin/test_singlyLinkedLists
 ```
