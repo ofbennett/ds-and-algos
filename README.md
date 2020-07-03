@@ -74,7 +74,7 @@ Requires an installation of [cmake](https://cmake.org).
 $ cd cpp/build
 $ ccmake ..
 ```
-- Hit C, Hit C, Hit G. This should generate a make file.
+- Hit C, Hit C, Hit G. This should configure and generate a make file.
 ```
 $ make
 ```
