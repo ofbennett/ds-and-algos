@@ -1,0 +1,1 @@
+add_library(search_algos_library search_algos.cpp)

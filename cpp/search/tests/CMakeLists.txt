@@ -1,0 +1,2 @@
+add_executable(test_search_algos test_main.cpp test_search_algos.cpp)
+target_link_libraries(test_search_algos search_algos_library)

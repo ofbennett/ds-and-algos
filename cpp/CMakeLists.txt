@@ -9,3 +9,4 @@ include_directories(catch)
 
 add_subdirectory(linkedLists)
 add_subdirectory(sort)
+add_subdirectory(search)
