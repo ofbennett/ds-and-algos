@@ -63,7 +63,7 @@ float SinglyLinkedList::popHead(){
     return value;
 }
 
-float SinglyLinkedList::getHead(){
+float SinglyLinkedList::getHead() const{
     if (head == nullptr){
         std::cerr << "getHead: List is empty" << std::endl;
         exit(EXIT_FAILURE);
@@ -73,7 +73,7 @@ float SinglyLinkedList::getHead(){
     }
 }
 
-float SinglyLinkedList::getTail(){
+float SinglyLinkedList::getTail() const{
     if (head == nullptr){
         std::cerr << "getTail: List is empty" << std::endl;
         exit(EXIT_FAILURE);
@@ -84,7 +84,7 @@ float SinglyLinkedList::getTail(){
     }
 }
 
-int SinglyLinkedList::getLength(){
+int SinglyLinkedList::getLength() const{
     Node* current = head;
     int n = 0;
     while (current != nullptr){
@@ -127,7 +127,7 @@ float SinglyLinkedList::popTail(){
     }
 }
 
-SinglyLinkedList::Node* SinglyLinkedList::getTailNode(){
+SinglyLinkedList::Node* SinglyLinkedList::getTailNode() const{
     Node* current = head;
     while (current->next != nullptr){
         current = current->next;
@@ -135,7 +135,7 @@ SinglyLinkedList::Node* SinglyLinkedList::getTailNode(){
     return current;
 }
 
-std::vector<float> SinglyLinkedList::getVector(){
+std::vector<float> SinglyLinkedList::getVector() const{
     std::vector<float> vec;
     if (head == nullptr){
         return vec;
@@ -150,7 +150,7 @@ std::vector<float> SinglyLinkedList::getVector(){
     }
 }
 
-float SinglyLinkedList::valueAt(int index){
+float SinglyLinkedList::valueAt(int index) const{
     int length = this->boundCheck(index);
     Node* current = head;
     for(int i = 0; i < index; i++){
@@ -199,7 +199,7 @@ void SinglyLinkedList::insertAt(int index, float value){
     }
 }
 
-int SinglyLinkedList::boundCheck(int index){
+int SinglyLinkedList::boundCheck(int index) const{
     int length = this->getLength();
     if (index > length - 1 or index < 0) {
         std::cerr << "boundCheck: Index " << index << " out of range for list of length " << length << std::endl;
@@ -300,7 +300,7 @@ float DoublyLinkedList::popHead(){
     return value;
 }
 
-float DoublyLinkedList::getHead(){
+float DoublyLinkedList::getHead() const{
     if (head == nullptr){
         std::cerr << "getHead: List is empty" << std::endl;
         exit(EXIT_FAILURE);
@@ -310,7 +310,7 @@ float DoublyLinkedList::getHead(){
     }
 }
 
-float DoublyLinkedList::getTail(){
+float DoublyLinkedList::getTail() const{
     if (tail == nullptr){
         std::cerr << "getTail: List is empty" << std::endl;
         exit(EXIT_FAILURE);
@@ -320,7 +320,7 @@ float DoublyLinkedList::getTail(){
     }
 }
 
-int DoublyLinkedList::getLength(){
+int DoublyLinkedList::getLength() const{
     Node* current = head;
     int n = 0;
     while (current != nullptr){
@@ -343,7 +343,7 @@ void DoublyLinkedList::pushTail(float value){
 }
 
 // Debugging method used to ensure all necessary links between Nodes exist
-bool DoublyLinkedList::is_connected(){
+bool DoublyLinkedList::is_connected() const{
     if(head == nullptr){
         return true;
     }
@@ -382,7 +382,7 @@ float DoublyLinkedList::popTail(){
     return value;
 }
 
-std::vector<float> DoublyLinkedList::getVector(){
+std::vector<float> DoublyLinkedList::getVector() const{
     std::vector<float> vec;
     if (head == nullptr){
         return vec;
@@ -397,7 +397,7 @@ std::vector<float> DoublyLinkedList::getVector(){
     }
 }
 
-float DoublyLinkedList::valueAt(int index){
+float DoublyLinkedList::valueAt(int index) const{
     int length = this->boundCheck(index);
     Node* current = head;
     for(int i = 0; i < index; i++){
@@ -407,7 +407,7 @@ float DoublyLinkedList::valueAt(int index){
     return value;
 }
 
-int DoublyLinkedList::boundCheck(int index){
+int DoublyLinkedList::boundCheck(int index) const{
     int length = this->getLength();
     if (index > length - 1 or index < 0) {
         std::cerr << "boundCheck: Index " << index << " out of range for list of length " << length << std::endl;

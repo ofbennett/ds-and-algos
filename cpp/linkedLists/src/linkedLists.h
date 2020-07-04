@@ -21,20 +21,20 @@ class SinglyLinkedList {
 
     void pushHead(float value);
     float popHead();
-    float getHead();
-    float getTail();
-    int getLength();
+    float getHead() const;
+    float getTail() const;
+    int getLength() const;
     void pushTail(float value);
     float popTail();
-    std::vector<float> getVector();
-    float valueAt(int index);
+    std::vector<float> getVector() const;
+    float valueAt(int index) const;
     void deleteAt(int index);
     void insertAt(int index, float value);
     void reverse();
 
     private:
-    Node* getTailNode();
-    int boundCheck(int index);
+    Node* getTailNode() const;
+    int boundCheck(int index) const;
     Node* head;
 };
 
@@ -56,21 +56,21 @@ class DoublyLinkedList {
 
     void pushHead(float value);
     float popHead();
-    float getHead();
-    float getTail();
-    int getLength();
+    float getHead() const;
+    float getTail() const;
+    int getLength() const;
     void pushTail(float value);
     float popTail();
-    std::vector<float> getVector();
-    float valueAt(int index);
+    std::vector<float> getVector() const;
+    float valueAt(int index) const;
     void deleteAt(int index);
     void insertAt(int index, float value);
     void reverse();
-    bool is_connected();
+    bool is_connected() const;
 
     private:
-    Node* getTailNode();
-    int boundCheck(int index);
+    Node* getTailNode() const;
+    int boundCheck(int index) const;
     Node* head;
     Node* tail;
 };
