@@ -1,0 +1,1 @@
+add_library(sort_algos_library sort_algos.cpp)

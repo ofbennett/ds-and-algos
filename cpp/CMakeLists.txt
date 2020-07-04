@@ -8,3 +8,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 include_directories(catch)
 
 add_subdirectory(linkedLists)
+add_subdirectory(sort)

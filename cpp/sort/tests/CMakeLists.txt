@@ -1,0 +1,2 @@
+add_executable(test_sort_algos test_main.cpp test_sort_algos.cpp)
+target_link_libraries(test_sort_algos sort_algos_library)
