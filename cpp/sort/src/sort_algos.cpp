@@ -3,7 +3,7 @@
 typedef std::vector<int> vec;
 
 vec BubbleSort::sort(vec list_to_sort){
-    vec x = vec(list_to_sort); // copy list_to_sort
+    vec x = list_to_sort;
     if(x.size()==0 or x.size()==1){
         return x;
     }
@@ -24,4 +24,39 @@ vec BubbleSort::sort(vec list_to_sort){
         }
     }
     return x;
+}
+
+vec QuickSort::sort(vec list_to_sort){
+    vec x = list_to_sort;
+    int list_length = x.size();
+    if(list_length==0 or list_length==1){
+        return x;
+    }
+    int high = list_length - 1;
+    int low = 0;
+    swap_around_pivot(x, high, low);
+
+return x;
+}
+
+void QuickSort::swap_around_pivot(vec& z, int high, int low){
+
+    if(high <= low){
+        return;
+    }
+
+    int pivot = z[high];
+    int i = low;
+    for(int j = low; j < high; j++){
+        if(z[j] <= pivot){
+            // Swap z[i] and z[j]
+            std::swap(z[i], z[j]);
+            i++;
+        }
+    }
+    // Swap z[i] and z[high]
+    std::swap(z[i], z[high]);
+
+    swap_around_pivot(z, i-1, low);
+    swap_around_pivot(z, high, i);
 }

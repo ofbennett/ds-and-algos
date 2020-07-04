@@ -15,7 +15,7 @@ class QuickSort {
     public:
     vec sort(vec list_to_sort);
     private:
-    void swap_around_pivot(vec z, int high, int low);
+    void swap_around_pivot(vec& z, int high, int low);
 };
 
 
