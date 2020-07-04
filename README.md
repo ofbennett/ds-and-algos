@@ -67,7 +67,7 @@ Algorithms:
 - Dijkstra
 - String Search and Manipulation
 
-## To Build and Run C++ Code:
+## Build and Run C++ Code and Tests:
 Requires an installation of [cmake](https://cmake.org).
 
 ```
@@ -78,7 +78,7 @@ $ ccmake ..
 ```
 $ make
 ```
-All binaries will be built and placed in the `build/bin` directory. To run one of the binaries for example run:
+All binaries (including all the binaries to run tests) will be built and placed in the `build/bin` directory. To run one of the test binaries for example, run:
 ```
 $ bin/test_singlyLinkedLists
 ```
