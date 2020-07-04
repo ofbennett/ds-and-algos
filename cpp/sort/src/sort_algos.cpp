@@ -49,12 +49,10 @@ void QuickSort::swap_around_pivot(vec& z, int high, int low){
     int i = low;
     for(int j = low; j < high; j++){
         if(z[j] <= pivot){
-            // Swap z[i] and z[j]
             std::swap(z[i], z[j]);
             i++;
         }
     }
-    // Swap z[i] and z[high]
     std::swap(z[i], z[high]);
 
     swap_around_pivot(z, i-1, low);
