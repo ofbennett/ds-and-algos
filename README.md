@@ -59,7 +59,7 @@ Algorithms:
 - Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
 - Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
 - Merge Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
-- Binary Search (of sorted array) - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
+- Binary Search (of sorted array) :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
