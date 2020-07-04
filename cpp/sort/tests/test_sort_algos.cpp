@@ -1,9 +1,10 @@
 #include <catch.hpp>
+#include <algorithm> // std::random_shuffle
 #include "sort_algos.h"
 
 typedef std::vector<int> vec;
 
-TEST_CASE("Basic test"){
+TEST_CASE("BubbleSort - Basic test"){
     vec vec1 = {3, 1, 9, 4};
     vec vec1_before = {3, 1, 9, 4};
     vec vec2 = {1, 3, 4, 9};
@@ -12,3 +13,48 @@ TEST_CASE("Basic test"){
     REQUIRE(vec3 == vec2);
     REQUIRE(vec1_before == vec1);
 }
+
+TEST_CASE("BubbleSort - Edge Cases"){
+    vec vec1_1 = {};
+    vec vec2_1 = {};
+    BubbleSort bs = BubbleSort();
+    vec vec3_1 = bs.sort(vec1_1);
+    REQUIRE(vec3_1 == vec2_1);
+
+    vec vec1_2 = {1};
+    vec vec2_2 = {1};
+    vec vec3_2 = bs.sort(vec1_2);
+    REQUIRE(vec3_2 == vec2_2);
+
+    vec vec1_3 = {1,1,1,1,1};
+    vec vec2_3 = {1,1,1,1,1};
+    vec vec3_3 = bs.sort(vec1_3);
+    REQUIRE(vec3_3 == vec2_3);
+
+    vec vec1_4 = {1,2,3,4,5};
+    vec vec2_4 = {1,2,3,4,5};
+    vec vec3_4 = bs.sort(vec1_4);
+    REQUIRE(vec3_4 == vec2_4);
+
+    vec vec1_5 = {1,2,3,4,4,5};
+    vec vec2_5 = {1,2,3,4,4,5};
+    vec vec3_5 = bs.sort(vec1_5);
+    REQUIRE(vec3_5 == vec2_5);
+}
+
+TEST_CASE("BubbleSort - Large List"){
+    int N = 1000;
+    vec vec1(N);
+    std::iota(vec1.begin(), vec1.end(), 1); // Fills vec with ints in range 1 to N
+    vec vec2 = vec(vec1);
+    std::random_shuffle(vec1.begin(), vec1.end());
+
+    BubbleSort bs = BubbleSort();
+    vec vec3 = bs.sort(vec1);
+    REQUIRE(vec3 == vec2);
+}
+
+    // for(int i = 0; i < vec1.size(); i++){
+    //         std::cout << vec1[i] << " ";
+    //     }
+    // std::cout << std::endl;

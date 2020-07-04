@@ -4,6 +4,9 @@ typedef std::vector<int> vec;
 
 vec BubbleSort::sort(vec list_to_sort){
     vec x = vec(list_to_sort); // copy list_to_sort
+    if(x.size()==0 or x.size()==1){
+        return x;
+    }
     while(true){
         int swap_count = 0;
         int temp;
