@@ -56,7 +56,7 @@ Data Structures:
 
 Algorithms:
 
-- Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.h#L9)
+- Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
 - Merge Sort
 - Quick Sort
 - Binary Search (of sorted array)
