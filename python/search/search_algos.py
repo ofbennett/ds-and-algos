@@ -6,15 +6,15 @@ class BinarySearch:
     def recursive_search(self, sorted_list, item):
         """
         Searches to find if item is in the sorted list.
-        Method calls _search() recursively.
+        Method calls _search_range() recursively.
         """
         low = 0
         high = len(sorted_list) - 1
-        answer = self._search(sorted_list, high, low, item)
+        answer = self._search_range(sorted_list, high, low, item)
         return answer
 
 
-    def _search(self, sorted_list, high, low, item):
+    def _search_range(self, sorted_list, high, low, item):
         if low > high:
             return False
         mid = (high - low)//2 + low
@@ -24,7 +24,7 @@ class BinarySearch:
             high = mid - 1
         if item == sorted_list[mid]:
             return True
-        return self._search(sorted_list, high, low, item)
+        return self._search_range(sorted_list, high, low, item)
 
     def iterative_search(self, sorted_list, item):
         """
