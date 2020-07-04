@@ -2,7 +2,7 @@
 
 By Oscar Bennett
 
-My own Python and C++ implementations of some important and interesting data structures and algorithms. Tested with the Python [pytest](https://docs.pytest.org/en/latest/) and the C++ [Catch2](https://github.com/catchorg/Catch2) frameworks respectively.
+These are my own Python and C++ implementations of some important and interesting data structures and algorithms. Tested with the Python [pytest](https://docs.pytest.org/en/latest/) and the C++ [Catch2](https://github.com/catchorg/Catch2) frameworks respectively.
 
 I'm planning to keep this project ongoing and gradually add things over time. Happy to hear suggestions!
 
@@ -59,7 +59,7 @@ Algorithms:
 - Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
 - Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
 - Merge Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
-- Binary Search (of sorted array)
+- Binary Search (of sorted array) - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
 - Tree traversal DFS - Pre Order, In Order, Post Order
 - Tree traversal BFS - Level Order
 - Graph BFS
