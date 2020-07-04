@@ -11,5 +11,10 @@ class BubbleSort {
     vec sort(vec list_to_sort);
 };
 
+class QuickSort {
+    public:
+    vec sort(vec list_to_sort);
+};
+
 
 #endif /* SORT_ALGOS_H_ */
