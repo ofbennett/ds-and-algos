@@ -68,6 +68,7 @@ vec MergeSort::sort(vec list_to_sort){
 void MergeSort::_sort(vec& z){
     if(z.size() > 1){
         int m = z.size() / 2;
+        // The L and R creation below could be more memory efficient. Maybe a subview into z instead of new vectors?
         vec L = vec(z.begin(), z.begin() + m);
         vec R = vec(z.begin() + m, z.end());
         _sort(L);
