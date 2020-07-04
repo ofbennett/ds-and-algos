@@ -57,7 +57,7 @@ Data Structures:
 Algorithms:
 
 - Bubble Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
-- Quick Sort
+- Quick Sort :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L42)
 - Merge Sort
 - Binary Search (of sorted array)
 - Tree traversal DFS - Pre Order, In Order, Post Order
