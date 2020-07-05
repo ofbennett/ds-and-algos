@@ -16,7 +16,8 @@ Data Structures:
 - Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)
 - Hash Table
 - Tree
-- Graph
+- Graph (Adjacency List) :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)
+- Graph (Objects and Pointers) :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)
 - Heap
 - Trie
 
@@ -50,7 +51,8 @@ Data Structures:
 - Doubly Linked List :white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
 - Hash Table
 - Tree
-- Graph
+- Graph (Adjacency List)
+- Graph (Objects and Pointers)
 - Heap
 - Trie
 
