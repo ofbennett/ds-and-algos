@@ -27,8 +27,8 @@ Bubble Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-a
 Quick Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L19)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
 Merge Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L45)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
 Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/search/search_algos.py#L2)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
-Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L72)|
 Graph DFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L25)|
+Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L72)|
 Dijkstra||
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order||
 Binary Tree Traversal BFS||
