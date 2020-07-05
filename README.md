@@ -12,17 +12,17 @@ Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-d
 Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
 Hash Table|------|----
 Tree|------|----
-Graph (Adjacency List)|------|----
-Graph (Objects and Pointers)|------|----
+Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)|----
+Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)|----
 Heap|------|----
 Trie|------|----
 
 Algorithms | Python | C++
 -----------|--------|----
-Bubble Sort|--------|----
-Quick Sort|--------|----
-Merge Sort|--------|----
-Binary Search (of sorted array)|--------|----
+Bubble Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
+Quick Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L19)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
+Merge Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L45)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
+Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/search/search_algos.py#L2)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
 Tree traversal DFS|--------|----
 Tree traversal BFS|--------|----
 Graph BFS|--------|----
