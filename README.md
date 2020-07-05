@@ -8,8 +8,8 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 Data Structures | Python | C++
 ----------------|--------|----
-Singly Linked List|------|----
-Doubly Linked List|------|----
+Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)|----
+Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)|----
 Hash Table|------|----
 Tree|------|----
 Graph (Adjacency List)|------|----
