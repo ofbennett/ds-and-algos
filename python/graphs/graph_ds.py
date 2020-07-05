@@ -6,6 +6,11 @@ class GraphAdjacencyList:
             self.attrDict = kwarg
 
 class Graph:
+    """
+    This class deals with the graph internal data representation.
+    CUD operations live here.
+    Anything to do with reading graph data and analysing it is implemented in the GraphAlgos class.
+    """
     class _Node:
         def __init__(self, index, value = None, attrDict = None):
             self.index = index

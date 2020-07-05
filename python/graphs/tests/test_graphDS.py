@@ -1,5 +1,5 @@
 import pytest
-from .. import GraphAdjacencyList, Graph
+from .. import Graph, GraphAdjacencyList
 
 @pytest.fixture
 def simpleGraphAdjacencyList():
