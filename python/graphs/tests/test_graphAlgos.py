@@ -15,3 +15,4 @@ def test_simpleAlgos(simpleGraphAdjacencyList):
     graph.buildFromAdjacencyList(gal)
     gAlgo = GraphAlgos(graph)
     assert(gAlgo.countNodes() == 3)
+    assert(gAlgo.countLinks() == 2)
