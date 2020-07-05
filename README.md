@@ -82,7 +82,7 @@ All binaries (including all the binaries to run tests) will be built and placed 
 ```
 $ bin/test_singlyLinkedLists
 ```
-The easiest way to run all the C++ tests together in one go is to run the `run_all_cpp_tests.sh` shell scrip provided in the `cpp/` directory. To run:
+The easiest way to run all the C++ tests together is to run the `cpp/run_all_cpp_tests.sh` shell script. To run:
 ```
 $ cd ..
 $ bash run_all_cpp_tests.sh
