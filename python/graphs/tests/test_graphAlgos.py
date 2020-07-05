@@ -48,3 +48,10 @@ def test_dfs(mediumGraph):
 
     visitedIndexes = gAlgo.dfsIterative(5, testing = True)
     assert(visitedIndexes == correctOrder)
+
+def test_bfs(mediumGraph):
+    gAlgo = GraphAlgos(mediumGraph)
+    correctOrder = [5,4,6,8,11,0,7,9,10,1,2,3]
+    
+    visitedIndexes = gAlgo.bfs(5, testing = True)
+    assert(visitedIndexes == correctOrder)
