@@ -1,5 +1,10 @@
 class GraphAdjacencyList:
     def __init__(self, adjacencyList, **kwarg):
+        """
+        kwarg can be any arbitrary attributes to add to the nodes.
+        Should be of the form: color = {0: 'red', 1: 'blue', 2: 'green'}
+        Keys are the node indices.
+        """
         self.adjacencyList = adjacencyList
         self.attrDict = None
         if kwarg:
@@ -10,6 +15,8 @@ class Graph:
     This class deals with the graph internal data representation.
     CUD operations live here.
     Anything to do with reading graph data and analysing it is implemented in the GraphAlgos class.
+    There is a 'value' member variable in each _Node object to store a value (as this is so common).
+    All other _Node attributes can be stored in the node's 'attr' dictionary.
     """
     class _Node:
         def __init__(self, index, value = None, attrDict = None):
