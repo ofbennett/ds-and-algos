@@ -6,6 +6,33 @@ These are my own Python and C++ implementations of some important and interestin
 
 I'm planning to keep this project ongoing and gradually add things over time. Happy to hear suggestions!
 
+Data Structures | Python | C++
+----------------|--------|----
+Singly Linked List|------|----
+Doubly Linked List|------|----
+Hash Table|------|----
+Tree|------|----
+Graph (Adjacency List)|------|----
+Graph (Objects and Pointers)|------|----
+Heap|------|----
+Trie|------|----
+
+Algorithms | Python | C++
+-----------|--------|----
+Bubble Sort|--------|----
+Quick Sort|--------|----
+Merge Sort|--------|----
+Binary Search (of sorted array)|--------|----
+Tree traversal DFS|--------|----
+Tree traversal BFS|--------|----
+Graph BFS|--------|----
+Graph DFS|--------|----
+Dijkstra|--------|----
+Graph DFS|--------|----
+String Search|--------|----
+String Manipulation|--------|----
+
+
 ## Python Code Done and To Do:
 
 :white_check_mark: == Done
