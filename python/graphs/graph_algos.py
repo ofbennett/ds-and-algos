@@ -19,7 +19,8 @@ class GraphAlgos:
         totalLinks = len(s)
         return totalLinks
     
-    # Setting testing to True in the search functions below makes the search order unique by sorting each node's children at each stage of the search. Makes testing the functions easier. 
+    # Setting testing to True in the search functions below makes the search order unique 
+    # by sorting each node's children at each stage of the search. Makes testing the functions easier. 
 
     def dfsRecurse(self, rootIndex, testing = False):
         for node in self.graph.nodeArray:
