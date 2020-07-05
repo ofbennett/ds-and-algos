@@ -16,3 +16,12 @@ class GraphAlgos:
                 s.add(link)
         totalLinks = len(s)
         return totalLinks
+    
+    def dfs_recurse(self):
+        pass
+
+    def dfs_iterative(self):
+        pass
+
+    def bfs(self):
+        pass
