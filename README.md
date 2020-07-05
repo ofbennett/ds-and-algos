@@ -6,6 +6,8 @@ These are my own Python and C++ implementations of some important and interestin
 
 I'm planning to keep this project ongoing and gradually add things over time. Happy to hear suggestions!
 
+## Code Done and To Do:
+
 :white_check_mark: == Done
 
 Data Structures | Python | C++
