@@ -1,6 +1,8 @@
 class TreeAdjacencyList:
     def __init__(self, adjacencyList, **kwarg):
         """
+        adjacencyList should be of the form:
+        adjacencyList = {0: [1,2], 1: [None, None], 2: [None, 3], 3: [None, None]}
         kwarg can be any arbitrary attributes to add to the nodes.
         Should be of the form: color = {0: 'red', 1: 'blue', 2: 'green'}
         Keys are the node indices.
