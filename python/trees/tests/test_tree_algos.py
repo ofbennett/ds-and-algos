@@ -37,3 +37,18 @@ def test_simpleAlgos(simpleBinaryTree, mediumBinaryTree):
 
     btAlgo = BinaryTreeAlgos(mediumBinaryTree)
     assert(btAlgo.countNodes() == 13)
+
+def test_binaryTreeTraversal(mediumBinaryTree):
+    btAlgo = BinaryTreeAlgos(mediumBinaryTree)
+
+    correctInOrder = [10, 6, 3, 7, 1, 0, 4, 2, 11, 8, 12, 5, 9]
+    indexList = btAlgo.traverse(order = "In-Order")
+    assert(indexList == correctInOrder)
+
+    correctPreOrder = [0, 1, 3, 6, 10, 7, 2, 4, 5, 8, 11, 12, 9]
+    indexList = btAlgo.traverse(order = "Pre-Order")
+    assert(indexList == correctPreOrder)
+
+    correctPostOrder = [10, 6, 7, 3, 1, 4, 11, 12, 8, 9, 5, 2, 0]
+    indexList = btAlgo.traverse(order = "Post-Order")
+    assert(indexList == correctPostOrder)
