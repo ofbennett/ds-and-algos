@@ -7,10 +7,13 @@ class BinaryTreeAlgos:
     def countNodes(self):
         return len(self.btree.nodeArray)
     
-    def traverse(self, order = "In-Order"):
+    def traverse(self, order = "In-Order", method = "Recursive"):
         root = self.btree.nodeArray[0]
         nodesVisitedList = []
-        self._visitNodesRecursively(root, order, nodesVisitedList)
+        if method == "Recursive":
+            self._visitNodesRecursively(root, order, nodesVisitedList)
+        elif method == "Iterative":
+            self._visitNodesIteratively(root, order, nodesVisitedList)
         nodesVisitedIndexList = [node.index for node in nodesVisitedList]
         return nodesVisitedIndexList
     
@@ -39,5 +42,42 @@ class BinaryTreeAlgos:
         else:
             raise Exception(f"Order string of {order} is invalid. Must be one of [In-Order, Pre-Order, Post-Order]")
     
-    # def _visitNodesIteratively(self, node, order, nodesVisitedList):
-    #     if order == "In-Order":
+    def _visitNodesIteratively(self, root, order, nodesVisitedList):
+        node = root
+        nodesToBeVisited = deque()
+        if order == "In-Order":
+            while((node is not None) or (len(nodesToBeVisited) != 0)):
+                if node is not None:
+                    nodesToBeVisited.append(node)
+                    node = node.left
+                else:
+                    node = nodesToBeVisited.pop()
+                    nodesVisitedList.append(node)
+                    node = node.right
+        
+        if order == "Pre-Order":
+            while((node is not None) or (len(nodesToBeVisited) != 0)):
+                if node is not None:
+                    nodesVisitedList.append(node)
+                    nodesToBeVisited.append(node.right)
+                    node = node.left
+                else:
+                    node = nodesToBeVisited.pop()
+
+        if order == "Post-Order":
+            isRightChild = deque()
+            while((node is not None) or (len(nodesToBeVisited) != 0)):
+                if node is not None:
+                    nodesToBeVisited.append(node)
+                    isRightChild.append(False)
+                    nodesToBeVisited.append(node.right)
+                    isRightChild.append(True)
+                    node = node.left
+                else:
+                    node = nodesToBeVisited.pop()
+                    rightChild = isRightChild.pop()
+                    if not rightChild:
+                        nodesVisitedList.append(node)
+                        node = None
+
+
