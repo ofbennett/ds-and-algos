@@ -1,0 +1,5 @@
+add_executable(test_graph_ds test_main.cpp test_graph_ds.cpp)
+target_link_libraries(test_graph_ds graph_library)
+
+add_executable(test_graph_algos test_main.cpp test_graph_algos.cpp)
+target_link_libraries(test_graph_algos graph_library)

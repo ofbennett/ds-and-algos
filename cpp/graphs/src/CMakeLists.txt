@@ -1,0 +1,1 @@
+add_library(graph_library graph_algos.cpp graph_ds.cpp)
