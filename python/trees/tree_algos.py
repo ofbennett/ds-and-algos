@@ -8,7 +8,7 @@ class BinaryTreeAlgos:
         return len(self.btree.nodeArray)
     
     def traverse(self, order = "In-Order", method = "Recursive"):
-        root = self.btree.nodeArray[0]
+        root = self.btree.root
         nodesVisitedList = []
         if method == "Recursive":
             self._visitNodesRecursively(root, order, nodesVisitedList)
