@@ -17,7 +17,7 @@ Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-d
 Hash Table||
 Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)|
 Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)|
-Binary Tree||
+Binary Tree|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_ds.py#L14)|
 Heap||
 Trie||
 
