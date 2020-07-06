@@ -34,9 +34,11 @@ def mediumBinaryTree():
 def test_simpleAlgos(simpleBinaryTree, mediumBinaryTree):
     btAlgo = BinaryTreeAlgos(simpleBinaryTree)
     assert(btAlgo.countNodes() == 4)
+    assert(btAlgo.getDepth() == 3)
 
     btAlgo = BinaryTreeAlgos(mediumBinaryTree)
     assert(btAlgo.countNodes() == 13)
+    assert(btAlgo.getDepth() == 5)
 
 def test_binaryTreeTraversal(mediumBinaryTree):
     btAlgo = BinaryTreeAlgos(mediumBinaryTree)

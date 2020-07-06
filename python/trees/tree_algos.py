@@ -80,4 +80,20 @@ class BinaryTreeAlgos:
                         nodesVisitedList.append(node)
                         node = None
 
+    def getDepth(self):
+        parents = []
+        parents.append(self.btree.root)
+        children = []
+        depth = 0
+        while (parents.count(None) != len(parents)): # Checks if any parents are not None
+            for parent in parents:
+                if parent is not None:
+                    children.append(parent.left)
+                    children.append(parent.right)
+            parents = children
+            children = []
+            depth += 1
+        return depth
+            
+            
 
