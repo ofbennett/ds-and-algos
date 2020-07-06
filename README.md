@@ -30,8 +30,8 @@ Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/o
 Graph DFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L25)|
 Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L72)|
 Dijkstra||
-Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order||
-Binary Tree Traversal BFS||
+Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Recursive||
+Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Iterative||
 String Search||
 String Manipulation||
 
