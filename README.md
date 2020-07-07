@@ -15,8 +15,8 @@ Data Structures | Python | C++
 Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L7)
 Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
 Hash Table||
-Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)|
-Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)|
+Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L12)
+Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L19)
 Binary Tree|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_ds.py#L14)|
 Heap||
 Trie||
