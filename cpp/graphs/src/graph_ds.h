@@ -28,6 +28,7 @@ class Graph {
     };
 
     public:
+    Graph();
     Graph(GraphAdjacencyList graphAdjacencyList);
     ~Graph();
     int nodeNumber;

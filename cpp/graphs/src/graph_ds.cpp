@@ -16,6 +16,11 @@ Graph::Node::~Node(){
     delete childrenPtArray;
 }
 
+Graph::Graph(){
+    nodeNumber = 0;
+    nodePtArray = NULL;
+}
+
 Graph::Graph(GraphAdjacencyList graphAdjacencyList){
     adjList adjacencyList = graphAdjacencyList.adjacencyList;
     vecF values = graphAdjacencyList.values;
