@@ -13,7 +13,7 @@ def simpleGraph():
 
 @pytest.fixture
 def mediumGraph():
-    adjacencyList = {0:  [1,2,3], 
+    adjacencyList = {0:  [1,2,3,4], 
                      1:  [0], 
                      2:  [0], 
                      3:  [0], 
