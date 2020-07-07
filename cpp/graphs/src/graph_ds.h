@@ -16,4 +16,22 @@ class GraphAdjacencyList {
     vecF values;
 };
 
+class Graph {
+    class Node {
+        public:
+        Node(int index, int childNum, float value);
+        ~Node();
+        int index;
+        float value;
+        Node** childrenPtArray;
+        int childNum;
+    };
+
+    public:
+    Graph(GraphAdjacencyList graphAdjacencyList);
+    ~Graph();
+    int nodeNumber;
+    Node** nodePtArray;
+};
+
 #endif /* GRAPH_DS_H_ */
