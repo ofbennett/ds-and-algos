@@ -54,7 +54,15 @@ TEST_CASE_METHOD(GraphFixtures,"Test DFS algos"){
     vecI visitedNodesIndices = gAlgo.dfsRecurse(5);
     REQUIRE(visitedNodesIndices == correctOrder);
 
-    vecI correctOrder2 = {5, 4, 6, 8, 11, 0, 7, 9, 10, 1, 2, 3};
     vecI visitedNodesIndices2 = gAlgo.dfsIterative(5);
-    REQUIRE(visitedNodesIndices2 == correctOrder2);
+    REQUIRE(visitedNodesIndices2 == correctOrder);
+}
+
+TEST_CASE_METHOD(GraphFixtures,"Test BFS algo"){
+    Graph graph = mediumGraph();
+    GraphAlgos gAlgo = GraphAlgos(graph);
+
+    vecI correctOrder = {5, 4, 6, 8, 11, 0, 7, 9, 10, 1, 2, 3};
+    vecI visitedNodesIndices = gAlgo.bfs(5);
+    REQUIRE(visitedNodesIndices == correctOrder);
 }

@@ -13,6 +13,7 @@ class GraphAlgos{
     int countLinks();
     vecI dfsRecurse(int rootIndex);
     vecI dfsIterative(int rootIndex);
+    vecI bfs(int rootIndex);
     
     private:
     void _dfsRecurse(Graph::Node* nodePt, bool* nodeIsVisited, int& nodeNumVisited, Graph::Node** visitedNodesPt);

@@ -51,9 +51,9 @@ int GraphAlgos::countLinks(){
 vecI GraphAlgos::dfsRecurse(int rootIndex){
     int nodeNum = this->countNodes();
     int nodeNumVisited = 0;
-    bool* nodeIsVisited = new bool[nodeNum]; // Have you deleted this later?
+    bool* nodeIsVisited = new bool[nodeNum];
     std::fill_n(nodeIsVisited, nodeNum, false);
-    Graph::Node** visitedNodesPt = new Graph::Node*[nodeNum]; // Have you deleted this later?
+    Graph::Node** visitedNodesPt = new Graph::Node*[nodeNum];
     std::fill_n(visitedNodesPt, nodeNum, nullptr);
     Graph::Node* rootNode = graphPt->nodePtArray[rootIndex];
     this->_dfsRecurse(rootNode, nodeIsVisited, nodeNumVisited, visitedNodesPt);
@@ -75,7 +75,7 @@ void GraphAlgos::_dfsRecurse(Graph::Node* nodePt, bool* nodeIsVisited, int& node
         nodeIsVisited[nodePt->index] = true;
         nodeNumVisited++;
     }
-    Graph::Node** childArrayCopy = new Graph::Node*[nodePt->childNum]; // Have you deleted this later?
+    Graph::Node** childArrayCopy = new Graph::Node*[nodePt->childNum];
     for(int i = 0; i < nodePt->childNum; i++){
         childArrayCopy[i] = nodePt->childrenPtArray[i];
     }
@@ -95,9 +95,9 @@ bool GraphAlgos::childSort(Graph::Node* left, Graph::Node* right){
 vecI GraphAlgos::dfsIterative(int rootIndex){
     int nodeNum = this->countNodes();
     int nodeNumVisited = 0;
-    bool* nodeIsVisited = new bool[nodeNum]; // Have you deleted this later?
+    bool* nodeIsVisited = new bool[nodeNum];
     std::fill_n(nodeIsVisited, nodeNum, false);
-    Graph::Node** visitedNodesPt = new Graph::Node*[nodeNum]; // Have you deleted this later?
+    Graph::Node** visitedNodesPt = new Graph::Node*[nodeNum];
     std::fill_n(visitedNodesPt, nodeNum, nullptr);
     Graph::Node* rootNode = graphPt->nodePtArray[rootIndex];
     std::list<Graph::Node*> nodeList{};
@@ -110,7 +110,51 @@ vecI GraphAlgos::dfsIterative(int rootIndex){
             nodeIsVisited[nodePt->index] = true;
             nodeNumVisited++;
         }
-        Graph::Node** childArrayCopy = new Graph::Node*[nodePt->childNum]; // Have you deleted this later?
+        Graph::Node** childArrayCopy = new Graph::Node*[nodePt->childNum];
+        for(int i = 0; i < nodePt->childNum; i++){
+            childArrayCopy[i] = nodePt->childrenPtArray[i];
+        }
+        std::sort(childArrayCopy, childArrayCopy+(nodePt->childNum), childSort);
+        for(int i = (nodePt->childNum)-1; i >=0; i--){
+            if(nodeIsVisited[childArrayCopy[i]->index] == false){
+                nodeList.push_front(childArrayCopy[i]);
+            } 
+        }
+        delete[] childArrayCopy;
+    }
+
+    vecI visitedNodesIndices(nodeNum, -1);
+    for(int i=0; i<nodeNum; i++){
+        visitedNodesIndices[i] = visitedNodesPt[i]->index;
+    }
+
+    delete[] nodeIsVisited;
+    delete[] visitedNodesPt;
+
+    return visitedNodesIndices;
+}
+
+vecI GraphAlgos::bfs(int rootIndex){
+    int nodeNum = this->countNodes();
+    int nodeNumVisited = 0;
+    bool* nodeIsVisited = new bool[nodeNum];
+    std::fill_n(nodeIsVisited, nodeNum, false);
+    Graph::Node** visitedNodesPt = new Graph::Node*[nodeNum]; 
+    std::fill_n(visitedNodesPt, nodeNum, nullptr);
+    Graph::Node* rootNode = graphPt->nodePtArray[rootIndex];
+    std::list<Graph::Node*> nodeList{};
+    nodeList.push_front(rootNode);
+
+
+    while(!nodeList.empty()){
+        Graph::Node* nodePt = nodeList.front();
+        nodeList.pop_front();
+        if(nodeIsVisited[nodePt->index] == false){
+            visitedNodesPt[nodeNumVisited] = nodePt;
+            nodeIsVisited[nodePt->index] = true;
+            nodeNumVisited++;
+        }
+        Graph::Node** childArrayCopy = new Graph::Node*[nodePt->childNum];
         for(int i = 0; i < nodePt->childNum; i++){
             childArrayCopy[i] = nodePt->childrenPtArray[i];
         }
