@@ -92,7 +92,8 @@ class GraphAlgos:
         for node in self.graph.nodeArray:
             delattr(node, 'visited')
         return visitedIndexes
-    
+
+
     def dijkstraArray(self, sourceIndex, targetIndex):
         def getWeight(currentNodeIndex, childIndex):
             currentNode = self.graph.nodeArray[currentNodeIndex]
@@ -133,7 +134,8 @@ class GraphAlgos:
             current = nodePrev[current]
         shortestPath = [current] + shortestPath  
         return shortestDistance, shortestPath
-    
+
+
     def dijkstraPriorityQueue(self, sourceIndex, targetIndex):
         def getWeight(currentNodeIndex, childIndex):
             currentNode = self.graph.nodeArray[currentNodeIndex]
@@ -148,7 +150,7 @@ class GraphAlgos:
         invalidTuples = set()
         nodeDist = [float('inf')]*len(self.graph.nodeArray)
         nodePrev = [None]*len(self.graph.nodeArray)
-        nodePriorityQueue[sourceIndex] = (0,sourceIndex)
+        nodePriorityQueue[sourceIndex] = (0, sourceIndex)
         nodeDist[sourceIndex] = 0
         heapq.heapify(nodePriorityQueue)
         while len(nodePriorityQueue) != 0:
