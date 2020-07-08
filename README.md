@@ -10,6 +10,9 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 :white_check_mark: == Done
 
+DFS == Depth First Search
+BFS == Breadth First Search
+
 Data Structures | Python | C++
 ----------------|--------|----
 Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L7)
