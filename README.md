@@ -4,7 +4,7 @@ By Oscar Bennett
 
 These are my own Python and C++ implementations of some important and interesting data structures and algorithms. Tested with the Python [pytest](https://docs.pytest.org/en/latest/) and the C++ [Catch2](https://github.com/catchorg/Catch2) frameworks respectively.
 
-I'm planning to keep this project ongoing and gradually add things over time. Happy to hear suggestions!
+I'm planning to keep this project ongoing and gradually add things over time. Happy to hear suggestions or feedback!
 
 ## Code Done and To Do:
 
