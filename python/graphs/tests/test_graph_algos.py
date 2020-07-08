@@ -86,7 +86,7 @@ def test_bfs(mediumGraph):
     visitedIndexes = gAlgo.bfs(5, testing = True)
     assert(visitedIndexes == correctOrder)
 
-def test_dijkstra(mediumWeightedGraph):
+def test_dijkstraArray(mediumWeightedGraph):
     gAlgo = GraphAlgos(mediumWeightedGraph)
 
     distance, path = gAlgo.dijkstraArray(0,5)
@@ -104,3 +104,22 @@ def test_dijkstra(mediumWeightedGraph):
     distance, path = gAlgo.dijkstraArray(0,9)
     assert(distance == 8)
     assert(path == [0,2,4,7,9])
+
+def test_dijkstraPriorityQueue(mediumWeightedGraph):
+    gAlgo = GraphAlgos(mediumWeightedGraph)
+
+    distance, path = gAlgo.dijkstraPriorityQueue(0,5)
+    assert(distance == 4)
+    assert(path == [0,2,5])
+
+    distance, path = gAlgo.dijkstraPriorityQueue(0,2)
+    assert(distance == 1)
+    assert(path == [0,2])
+
+    distance, path = gAlgo.dijkstraPriorityQueue(4,10)
+    assert(distance == 7)
+    assert(path == [4,7,9,10])
+
+    distance, path = gAlgo.dijkstraPriorityQueue(0,9)
+    assert(distance == 8)
+    assert(path == [0,1,4,7,9])

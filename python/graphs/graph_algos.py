@@ -1,4 +1,5 @@
 from collections import deque
+import heapq
 
 class GraphAlgos:
     def __init__(self, graph):
@@ -131,4 +132,48 @@ class GraphAlgos:
             shortestPath = [current] + shortestPath
             current = nodePrev[current]
         shortestPath = [current] + shortestPath  
+        return shortestDistance, shortestPath
+    
+    def dijkstraPriorityQueue(self, sourceIndex, targetIndex):
+        def getWeight(currentNodeIndex, childIndex):
+            currentNode = self.graph.nodeArray[currentNodeIndex]
+            childrenOfCurrent = currentNode.children
+            childrenIndices = [child.index for child in childrenOfCurrent]
+            weight = currentNode.attr['weights'][childrenIndices.index(childIndex)]
+            return weight
+
+        nodeIndexSet = set(range(len(self.graph.nodeArray)))
+        nodePriorityQueue = zip([float('inf')]*len(self.graph.nodeArray), range(len(self.graph.nodeArray)))
+        nodePriorityQueue = list(nodePriorityQueue)
+        invalidTuples = set()
+        nodeDist = [float('inf')]*len(self.graph.nodeArray)
+        nodePrev = [None]*len(self.graph.nodeArray)
+        nodePriorityQueue[sourceIndex] = (0,sourceIndex)
+        nodeDist[sourceIndex] = 0
+        heapq.heapify(nodePriorityQueue)
+        while len(nodePriorityQueue) != 0:
+            tup = heapq.heappop(nodePriorityQueue)
+            while tup in invalidTuples:
+                tup = heapq.heappop(nodePriorityQueue)
+            dist, currentNodeIndex = tup
+            nodeIndexSet.remove(currentNodeIndex)
+            for child in self.graph.nodeArray[currentNodeIndex].children:
+                childIndex = child.index
+                if childIndex in nodeIndexSet:
+                    currentDistance = nodeDist[currentNodeIndex] + getWeight(currentNodeIndex, childIndex)
+                    if currentDistance < nodeDist[childIndex]:
+                        nodeDist[childIndex] = currentDistance
+                        invalidTuples.add((nodeDist[childIndex], childIndex))
+                        heapq.heappush(nodePriorityQueue,(currentDistance, childIndex))
+                        nodePrev[childIndex] = currentNodeIndex
+        
+        shortestDistance = nodeDist[targetIndex]
+        shortestPath = []
+        current = targetIndex
+
+        while current != sourceIndex:
+            shortestPath = [current] + shortestPath
+            current = nodePrev[current]
+        shortestPath = [current] + shortestPath
+
         return shortestDistance, shortestPath
