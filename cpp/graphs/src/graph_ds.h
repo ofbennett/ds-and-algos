@@ -17,6 +17,7 @@ class GraphAdjacencyList {
 };
 
 class Graph {
+    
     class Node {
         public:
         Node(int index, int childNum, float value);
@@ -33,6 +34,8 @@ class Graph {
     ~Graph();
     int nodeNumber;
     Node** nodePtArray;
+
+    friend class GraphAlgos;
 };
 
 #endif /* GRAPH_DS_H_ */

@@ -18,7 +18,7 @@ Graph::Node::~Node(){
 
 Graph::Graph(){
     nodeNumber = 0;
-    nodePtArray = NULL;
+    nodePtArray = nullptr;
 }
 
 Graph::Graph(GraphAdjacencyList graphAdjacencyList){

@@ -45,3 +45,11 @@ TEST_CASE_METHOD(GraphFixtures,"Basic Algos tests"){
     REQUIRE(gAlgo2.countNodes()==12);
     REQUIRE(gAlgo2.countLinks()==11);
 }
+
+TEST_CASE_METHOD(GraphFixtures,"Test DFS algos"){
+    Graph graph = mediumGraph();
+    GraphAlgos gAlgo = GraphAlgos(graph);
+    vecI correctOrder = {5, 4, 0, 1, 2, 3, 6, 7, 8, 9, 10, 11};
+    vecI visitedNodesIndices = gAlgo.dfsRecurse(5);
+    REQUIRE(visitedNodesIndices == correctOrder);
+}

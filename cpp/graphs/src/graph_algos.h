@@ -11,6 +11,11 @@ class GraphAlgos{
     Graph* graphPt;
     int countNodes();
     int countLinks();
+    vecI dfsRecurse(int rootIndex);
+    
+    private:
+    void _dfsRecurse(Graph::Node* nodePt, bool* nodeIsVisited, int& nodeNumVisited, Graph::Node** visitedNodesPt);
+    static bool _dfsRecurseChildSort(Graph::Node* left, Graph::Node* right);
 };
 
 #endif /* GRAPH_ALGOS_H_ */
