@@ -91,3 +91,44 @@ class GraphAlgos:
         for node in self.graph.nodeArray:
             delattr(node, 'visited')
         return visitedIndexes
+    
+    def dijkstraArray(self, sourceIndex, targetIndex):
+        def getWeight(currentNodeIndex, childIndex):
+            currentNode = self.graph.nodeArray[currentNodeIndex]
+            childrenOfCurrent = currentNode.children
+            childrenIndices = [child.index for child in childrenOfCurrent]
+            weight = currentNode.attr['weights'][childrenIndices.index(childIndex)]
+            return weight
+        
+        def currentMinDistance(nodeIndexSet, nodeDist):
+            currentMinValue = float('inf')
+            currentMinIndex = None
+            for nodeIndex in nodeIndexSet:
+                if nodeDist[nodeIndex] < currentMinValue:
+                    currentMinValue = nodeDist[nodeIndex]
+                    currentMinIndex = nodeIndex
+            return currentMinIndex
+
+        nodeIndexSet = set(range(len(self.graph.nodeArray)))
+        nodeDist = [float('inf')]*len(self.graph.nodeArray)
+        nodePrev = [None]*len(self.graph.nodeArray)
+        nodeDist[sourceIndex] = 0
+        while len(nodeIndexSet) != 0:
+            currentNodeIndex = currentMinDistance(nodeIndexSet, nodeDist)
+            nodeIndexSet.remove(currentNodeIndex)
+            for child in self.graph.nodeArray[currentNodeIndex].children:
+                childIndex = child.index
+                if childIndex in nodeIndexSet:
+                    currentDistance = nodeDist[currentNodeIndex] + getWeight(currentNodeIndex, childIndex)
+                    if currentDistance < nodeDist[childIndex]:
+                        nodeDist[childIndex] = currentDistance
+                        nodePrev[childIndex] = currentNodeIndex
+        
+        shortestDistance = nodeDist[targetIndex]
+        shortestPath = []
+        current = targetIndex
+        while current != sourceIndex:
+            shortestPath = [current] + shortestPath
+            current = nodePrev[current]
+        shortestPath = [current] + shortestPath  
+        return shortestDistance, shortestPath
