@@ -18,7 +18,7 @@ Hash Table||
 Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L12)
 Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L19)
 Binary Tree|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_ds.py#L14)|
-Heap||
+Binary Heap||
 Trie||
 
 Algorithms | Python | C++
@@ -30,7 +30,8 @@ Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/o
 Graph DFS Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L25)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L51)
 Graph DFS Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L48)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L95)
 Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L72)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L137)
-Dijkstra||
+Dijkstra<br>Array O(V<sup>2</sup>)||
+Dijkstra<br>Priority Queue / Min Heap O((V + E)log(V))||
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L20)|
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L45)|
 
