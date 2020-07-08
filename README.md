@@ -16,8 +16,8 @@ Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-d
 Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
 Hash Table||
 Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L12)
-Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L8)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L19)
-Binary Tree|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_ds.py#L14)|
+Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L13)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L19)
+Binary Tree|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_ds.py#L16)|
 Binary Heap||
 Trie||
 
@@ -27,9 +27,9 @@ Bubble Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-a
 Quick Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L19)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
 Merge Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/sort/sort_algos.py#L45)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
 Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/search/search_algos.py#L2)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/search/src/search_algos.cpp#L5)
-Graph DFS Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L25)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L51)
-Graph DFS Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L48)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L95)
-Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L72)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L137)
+Graph DFS Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L26)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L51)
+Graph DFS Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L49)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L95)
+Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L73)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_algos.cpp#L137)
 Dijkstra<br>Distance Array<br>Time O(V<sup>2</sup>)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L97)|
 Dijkstra<br>Priority Queue / Min Heap<br>Time O((V + E)log(V))|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_algos.py#L139)|
 A* ||
