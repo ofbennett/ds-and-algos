@@ -10,9 +10,6 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 :white_check_mark: == Done
 
-DFS == Depth First Search
-BFS == Breadth First Search
-
 Data Structures | Python | C++
 ----------------|--------|----
 Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L7)
@@ -35,6 +32,10 @@ Graph BFS|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/
 Dijkstra||
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L20)|
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L45)|
+
+DFS - Depth First Search
+
+BFS - Breadth First Search
 
 ## Run Python Code Tests:
 
