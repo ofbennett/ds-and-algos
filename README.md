@@ -44,7 +44,7 @@ Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Iterative|:white
 
 String Algorithms | Python | C++
 -----------|--------|----
-Longest Substring<br>Without Repeated Characters ||
+Longest Substring<br>Without Repeated Characters|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/strings/string_algos.py#L5)|
 Knuth–Morris–Pratt<br>Substring Search ||
 Boyer–Moore<br>Substring Search ||
 Rabin–Karp<br>Substring Search ||
