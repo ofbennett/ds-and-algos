@@ -49,6 +49,14 @@ Knuth–Morris–Pratt<br>Substring Search ||
 Boyer–Moore<br>Substring Search ||
 Rabin–Karp<br>Substring Search ||
 
+Dynamic Programming Algorithms | Python | C++
+-----------|--------|----
+Fibonacci Sequence ||
+Stair Climbing Problem ||
+Towers of Hanoi ||
+Knapsack Problem ||
+Travelling Salesman<br>Held–Karp Algorithm ||
+
 
 DFS - Depth First Search
 
