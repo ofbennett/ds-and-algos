@@ -44,6 +44,45 @@ def test_longestNoneRepeatingChars():
     longestSubstring = ss.longestNoneRepeatingChars(string)
     assert(longestSubstring == "abcdefghijklmnopqrstuvwxyz")
 
-    string = "abcdefghijklmnopqrstuvwxyz"*100
+    string = "abcdefghijklmnopqrstuvwxyz"*10
     longestSubstring = ss.longestNoneRepeatingChars(string)
     assert(longestSubstring == "abcdefghijklmnopqrstuvwxyz")
+
+
+def test_rabinKarp():
+    ss = SubstringSearch()
+    
+    string = "aaaabcddddd"
+    substring = "abc"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == True)
+
+    string = "aaaabcddddd"
+    substring = "d"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == True)
+
+    string = "aaaabcddddd"
+    substring = "abcde"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == False)
+
+    string = ""
+    substring = "ab"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == False)
+
+    string = "fjaoiebnlsnvpowefnlakvoaiepfcjelsfmefianew"
+    substring = "voaie"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == True)
+
+    string = "fjaoiebnlsnvpowefnlakvoaiepfcjelsfmefianew"
+    substring = "w"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == True)
+
+    string = ("abc"*100) + "fjaoiebnlsnvpowefnlakvoaiepfcjelsfmefianew" + ("abd"*100)
+    substring = "fjaoiebnlsnvpowefnlakvoaiepfcjelsfmefianew"
+    answer = ss.rabinKarp(string, substring)
+    assert(answer == True)
