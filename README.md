@@ -49,7 +49,7 @@ Knuth–Morris–Pratt<br>Substring Search ||
 Boyer–Moore<br>Substring Search ||
 Rabin–Karp<br>Substring Search |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/strings/string_algos.py#L32)|
 
-Dynamic Programming Algorithms | Python | C++
+Recursive Algorithms<br>and Dynamic Programming | Python | C++
 -----------|--------|----
 Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/dynamicProgramming/dp_algos.py#L1)|
 Towers of Hanoi ||
