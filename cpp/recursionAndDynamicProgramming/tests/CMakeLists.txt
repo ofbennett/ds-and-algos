@@ -1,0 +1,2 @@
+add_executable(test_radp_algos test_main.cpp test_radp_algos.cpp)
+target_link_libraries(test_radp_algos radp_algos_library)

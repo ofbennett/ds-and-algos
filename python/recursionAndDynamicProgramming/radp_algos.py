@@ -6,7 +6,7 @@ class Fibonacci:
         pass
 
     def tabulationMethod(self, n):
-        # Bottom up
+        # Bottom up method
         if n in [0,1]:
             return n
         
@@ -18,7 +18,7 @@ class Fibonacci:
         return memo[n]
 
     def memoizationMethod(self, n):
-        # Top down
+        # Top down method
         memo = {}
         return self._memoizationMethod(n, memo)
 
