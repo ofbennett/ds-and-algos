@@ -51,8 +51,7 @@ Rabin–Karp<br>Substring Search |:white_check_mark: - [link](https://github.com
 
 Dynamic Programming Algorithms | Python | C++
 -----------|--------|----
-Fibonacci Sequence ||
-Stair Climbing Problem ||
+Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/dynamicProgramming/dp_algos.py#L1)|
 Towers of Hanoi ||
 Knapsack Problem ||
 Travelling Salesman<br>Held–Karp Algorithm ||
