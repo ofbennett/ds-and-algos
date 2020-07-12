@@ -33,6 +33,8 @@ class Fibonacci:
 
 class TowersOfHanoi:
     # Recursive algorithm which solves the Towers of Hanoi puzzle. Time complexity O(2^N) where N is number of disks.
+    # Dynamic programming isn't very helpful in this case as all O(2^N) moves have to be enumerated 
+    # regardless of the method used to find them.
     def __init__(self, n):
         self.n = n
         self.origin = deque()
