@@ -51,7 +51,7 @@ Rabin–Karp<br>Substring Search |:white_check_mark: - [link](https://github.com
 
 Recursive Algorithms<br>and Dynamic Programming | Python | C++
 -----------|--------|----
-Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursionAndDynamicProgramming/radp_algos.py#L3)|
+Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursionAndDynamicProgramming/radp_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/recursionAndDynamicProgramming/src/radp_algos.cpp#L3)
 Towers of Hanoi |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursionAndDynamicProgramming/radp_algos.py#L34)|
 Knapsack Problem ||
 Travelling Salesman<br>Held–Karp Algorithm ||
