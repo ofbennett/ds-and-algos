@@ -51,17 +51,17 @@ TEST_CASE("Test Towers Of Hanoi algorithm"){
     REQUIRE(toh4.origin.size() == 0);
     REQUIRE(toh4.buffer.size() == 0);
 
-    TowersOfHanoi toh5 = TowersOfHanoi(6);
-    toh5.solve();
-    std::list<int> correctFinalTower5 = {5, 4, 3, 2, 1, 0};
-    REQUIRE(toh5.destination == correctFinalTower5);
-    REQUIRE(toh5.origin.size() == 0);
-    REQUIRE(toh5.buffer.size() == 0);
-
-    TowersOfHanoi toh6 = TowersOfHanoi(10);
+    TowersOfHanoi toh6 = TowersOfHanoi(6);
     toh6.solve();
-    std::list<int> correctFinalTower6 = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+    std::list<int> correctFinalTower6 = {5, 4, 3, 2, 1, 0};
     REQUIRE(toh6.destination == correctFinalTower6);
     REQUIRE(toh6.origin.size() == 0);
     REQUIRE(toh6.buffer.size() == 0);
+
+    TowersOfHanoi toh10 = TowersOfHanoi(10);
+    toh10.solve();
+    std::list<int> correctFinalTower10 = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+    REQUIRE(toh10.destination == correctFinalTower10);
+    REQUIRE(toh10.origin.size() == 0);
+    REQUIRE(toh10.buffer.size() == 0);
 }
