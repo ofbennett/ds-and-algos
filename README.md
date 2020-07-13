@@ -12,8 +12,8 @@ I'm planning to keep this project ongoing and gradually add things over time. Ha
 
 Data Structures | Python | C++
 ----------------|--------|----
-Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L1)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L7)
-Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linkedLists/linkedLists.py#L154)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linkedLists/src/linkedLists.h#L41)
+Singly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linked_lists/linkedLists.py#L1)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linked_lists/src/linkedLists.h#L7)
+Doubly Linked List|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/linked_lists/linkedLists.py#L154)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/linked_lists/src/linkedLists.h#L41)
 Hash Table||
 Graph (Adjacency List)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L1)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L12)
 Graph (Objects and Pointers)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/graphs/graph_ds.py#L13)| :white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/graphs/src/graph_ds.h#L19)
@@ -51,8 +51,8 @@ Rabin–Karp<br>Substring Search |:white_check_mark: - [link](https://github.com
 
 Recursive Algorithms<br>and Dynamic Programming | Python | C++
 -----------|--------|----
-Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursionAndDynamicProgramming/radp_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/recursionAndDynamicProgramming/src/radp_algos.cpp#L3)
-Towers of Hanoi |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursionAndDynamicProgramming/radp_algos.py#L34)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/recursionAndDynamicProgramming/src/radp_algos.cpp#L43)
+Fibonacci Sequence |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursion_and_dynamic_programming/radp_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/recursion_and_dynamic_programming/src/radp_algos.cpp#L3)
+Towers of Hanoi |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/recursion_and_dynamic_programming/radp_algos.py#L34)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/recursion_and_dynamic_programming/src/radp_algos.cpp#L43)
 Knapsack Problem ||
 Travelling Salesman<br>Held–Karp Algorithm ||
 
