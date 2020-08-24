@@ -41,6 +41,8 @@ Tree Algorithms | Python | C++
 -----------|--------|----
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Recursive|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L20)|
 Binary Tree Traversal DFS<br>Pre Order, In Order, Post Order<br>Iterative|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/trees/tree_algos.py#L45)|
+AVL Tree ||
+Red-Black Tree ||
 
 String Algorithms | Python | C++
 -----------|--------|----
