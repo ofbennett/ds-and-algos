@@ -8,7 +8,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 include_directories(catch)
 
 add_subdirectory(linked_lists)
-add_subdirectory(sort)
-add_subdirectory(search)
+add_subdirectory(arrays)
 add_subdirectory(graphs)
 add_subdirectory(recursion_and_dynamic_programming)
