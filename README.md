@@ -23,9 +23,9 @@ Trie||
 
 Array Algorithms | Python | C++
 -----------|--------|----
-Bubble Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L5)
-Quick Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L19)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L29)
-Merge Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L45)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/sort/src/sort_algos.cpp#L62)
+Bubble Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L3)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/arrays/sort/src/sort_algos.cpp#L5)
+Quick Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L19)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/arrays/sort/src/sort_algos.cpp#L29)
+Merge Sort|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/sort/sort_algos.py#L45)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/cpp/arrays/sort/src/sort_algos.cpp#L62)
 Binary Search (of sorted array)|:white_check_mark: - [link](https://github.com/ofbennett/my-ds-and-algos/blob/master/python/arrays/search/search_algos.py#L2)|:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/cpp/arrays/search/src/search_algos.cpp#L5)
 Rotate array by k |:white_check_mark: - [link](https://github.com/ofbennett/ds-and-algos/blob/master/python/arrays/other/array_algos.py#L3)|
 
